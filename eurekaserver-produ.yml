@@ -1,5 +1,5 @@
 server:
-  port: 9002
+  port: 9001
 eureka:
   instance:
     hostname: eurekaserver
@@ -7,4 +7,4 @@ eureka:
     register-with-eureka: false
     fetch-registry: false
     service-url:
-      defualtZone: http://localhost:9002/eureka/
+      defualtZone: http://localhost:9001/eureka/

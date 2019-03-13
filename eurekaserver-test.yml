@@ -1,11 +1,4 @@
-#通用数据源配置
-spring:
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url=jdbc: mysql://127.0.0.1:3306/test?charset=utf8mb4&useSSL=false
-    username: root
-    password: 1234
-  jpa:
-    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
-    show-sql: true
-    hibernate.ddl-auto: create
+age: 18
+name: ni
+address: wuhan
+deport: test
